@@ -18,17 +18,17 @@
 ["equipmentBox", "Box_NATO_Equip_F"] call _fnc_saveToTemplate; //Changeing this from default will require you to define logistics attachement offset for the box type
 
 ["vehiclesBasic", ["UK3CB_AAF_B_M1030"]] call _fnc_saveToTemplate; 			//this line determines basic vehicles, the lightest kind available. -- Example: ["vehiclesBasic", ["B_Quadbike_01_F"]] -- Array, can contain multiple assets
-["vehiclesLightUnarmed", ["UK3CB_AAF_B_M1025","UK3CB_AAF_B_M998_4DR","UK3CB_AAF_B_M998_2DR","UK3CB_AAF_I_GAZ_Vodnik","UK3CB_AAF_O_Tigr_FFV","UK3CB_AAF_O_Tigr","UK3CB_AAF_B_LR_Closed","UK3CB_AAF_B_LR_Open"]] call _fnc_saveToTemplate; 		//this line determines light and unarmed vehicles. -- Example: ["vehiclesLightUnarmed", ["B_MRAP_01_F"]] -- Array, can contain multiple assets
-["vehiclesLightArmed", ["UK3CB_AAF_B_M1025_M2","UK3CB_AAF_B_SUV_Armed","UK3CB_AAF_I_LR_SF_M2","UK3CB_AAF_I_GAZ_Vodnik_PKT","UK3CB_AAF_I_GAZ_Vodnik_KVPT","UK3CB_AAF_I_LR_SF_AGS30","UK3CB_AAF_O_Tigr_STS"]] call _fnc_saveToTemplate; 		//this line determines light and armed vehicles -- Example: ["vehiclesLightArmed", ["B_MRAP_01_hmg_F", "B_MRAP_01_gmg_F"]] -- Array, can contain multiple assets
+["vehiclesLightUnarmed", ["UK3CB_AAF_B_M1025","UK3CB_AAF_B_M998_4DR","UK3CB_AAF_B_M998_2DR","UK3CB_AAF_B_LR_Closed","UK3CB_AAF_B_LR_Open"]] call _fnc_saveToTemplate; 		//this line determines light and unarmed vehicles. -- Example: ["vehiclesLightUnarmed", ["B_MRAP_01_F"]] -- Array, can contain multiple assets
+["vehiclesLightArmed", ["UK3CB_AAF_B_M1025_M2","UK3CB_AAF_B_SUV_Armed","UK3CB_AAF_I_LR_SF_M2","UK3CB_AAF_B_M1025_M2","UK3CB_AAF_B_LR_M2"]] call _fnc_saveToTemplate; 		//this line determines light and armed vehicles -- Example: ["vehiclesLightArmed", ["B_MRAP_01_hmg_F", "B_MRAP_01_gmg_F"]] -- Array, can contain multiple assets
 ["vehiclesTrucks", ["UK3CB_AAF_B_M939_Open","UK3CB_AAF_B_M939","UK3CB_AAF_B_MTVR_Closed","UK3CB_AAF_B_MTVR_Open"]] call _fnc_saveToTemplate; 			//this line determines the trucks -- Example: ["vehiclesTrucks", ["B_Truck_01_transport_F", "B_Truck_01_covered_F"]] -- Array, can contain multiple assets
 ["vehiclesCargoTrucks", ["UK3CB_AAF_I_M939_Recovery","UK3CB_AAF_B_MTVR_Recovery"]] call _fnc_saveToTemplate; 		//this line determines cargo trucks -- Example: ["vehiclesCargoTrucks", ["B_Truck_01_transport_F", "B_Truck_01_covered_F"]] -- Array, can contain multiple assets
 ["vehiclesAmmoTrucks", ["UK3CB_AAF_B_MTVR_Reammo","UK3CB_AAF_B_M939_Reammo"]] call _fnc_saveToTemplate; 		//this line determines ammo trucks -- Example: ["vehiclesAmmoTrucks", ["B_Truck_01_ammo_F"]] -- Array, can contain multiple assets
 ["vehiclesRepairTrucks", ["UK3CB_AAF_B_M939_Repair","UK3CB_AAF_B_MTVR_Repair"]] call _fnc_saveToTemplate; 		//this line determines repair trucks -- Example: ["vehiclesRepairTrucks", ["B_Truck_01_Repair_F"]] -- Array, can contain multiple assets
 ["vehiclesFuelTrucks", ["UK3CB_AAF_B_MTVR_Refuel","UK3CB_AAF_B_M939_Fuel"]] call _fnc_saveToTemplate;		//this line determines fuel trucks -- Array, can contain multiple assets
 ["vehiclesMedical", ["UK3CB_AAF_B_M113_AMB"]] call _fnc_saveToTemplate;			//this line determines medical vehicles -- Array, can contain multiple assets
-["vehiclesAPCs", ["UK3CB_AAF_B_LAV25","UK3CB_AAF_B_LAV25_HQ","UK3CB_AAF_B_M113_M2","UK3CB_AAF_B_M113_M240","UK3CB_AAF_B_M113_MK19","UK3CB_AAF_O_BMP2","UK3CB_AAF_O_BTR80","UK3CB_AAF_O_BTR80a","UK3CB_AAF_O_MTLB_PKT","UK3CB_AAF_B_AAV"]] call _fnc_saveToTemplate; 				//this line determines APCs -- Example: ["vehiclesAPCs", ["B_APC_Tracked_01_rcws_F", "B_APC_Tracked_01_CRV_F"]] -- Array, can contain multiple assets
-["vehiclesTanks", ["UK3CB_AAF_B_M60A3","UK3CB_AAF_O_T72BB","UK3CB_AAF_O_T72BC"]] call _fnc_saveToTemplate; 			//this line determines tanks -- Example: ["vehiclesTanks", ["B_MBT_01_cannon_F", "B_MBT_01_TUSK_F"]] -- Array, can contain multiple assets
-["vehiclesAA", ["UK3CB_AAF_O_2S6M_Tunguska","UK3CB_AAF_O_MTLB_ZU23","UK3CB_AAF_O_ZsuTank","UK3CB_AAF_B_MTVR_ZU23","UK3CB_AAF_B_M939_ZU23"]] call _fnc_saveToTemplate; 				//this line determines AA vehicles -- Example: ["vehiclesAA", ["B_APC_Tracked_01_AA_F"]] -- Array, can contain multiple assets
+["vehiclesAPCs", ["UK3CB_AAF_B_LAV25","UK3CB_AAF_B_LAV25","UK3CB_AAF_B_AAV","UK3CB_AAF_B_LAV25_HQ","UK3CB_AAF_B_M113_M2","UK3CB_AAF_B_AAV"]] call _fnc_saveToTemplate; 				//this line determines APCs -- Example: ["vehiclesAPCs", ["B_APC_Tracked_01_rcws_F", "B_APC_Tracked_01_CRV_F"]] -- Array, can contain multiple assets
+["vehiclesTanks", ["UK3CB_AAF_B_M60A3","UK3CB_AAF_I_T72BC"]] call _fnc_saveToTemplate; 			//this line determines tanks -- Example: ["vehiclesTanks", ["B_MBT_01_cannon_F", "B_MBT_01_TUSK_F"]] -- Array, can contain multiple assets
+["vehiclesAA", ["UK3CB_AAF_O_2S6M_Tunguska","UK3CB_AAF_O_MTLB_ZU23","UK3CB_AAF_O_ZsuTank","",""]] call _fnc_saveToTemplate; 				//this line determines AA vehicles -- Example: ["vehiclesAA", ["B_APC_Tracked_01_AA_F"]] -- Array, can contain multiple assets
 ["vehiclesLightAPCs", []] call _fnc_saveToTemplate;			//this line determines light APCs
 ["vehiclesIFVs", []] call _fnc_saveToTemplate;				//this line determines IFVs
 
@@ -174,8 +174,8 @@ _sfLoadoutData setVariable ["binoculars", ["Laserdesignator"]];
 
 
 _sfLoadoutData setVariable ["rifles", [ 					//this line determines rifles -- Example: ["arifle_MX_F", "arifle_MX_pointer_F"] -- Array, can contain multiple assets
-["rhs_weap_hk416d145", "rhsusf_acc_nt4_black", "rhsusf_acc_anpeq15_bk", "rhsusf_acc_eotech_552", ["rhs_mag_30Rnd_556x45_Mk318_PMAG"], [], "rhsusf_acc_kac_grip"],
-["rhs_weap_hk416d145", "rhsusf_acc_nt4_black", "rhsusf_acc_anpeq15_bk", "rhsusf_acc_ACOG_RMR", ["rhs_mag_30Rnd_556x45_Mk318_PMAG"], [], "rhsusf_acc_kac_grip"],
+["rhs_weap_vhsd2", "rhsusf_acc_nt4_black", "rhsusf_acc_anpeq15_bk", "rhsusf_acc_eotech_552", ["rhs_mag_30Rnd_556x45_Mk318_PMAG"], [], "rhsusf_acc_kac_grip"],
+["rhs_weap_vhsd2", "rhsusf_acc_nt4_black", "rhsusf_acc_anpeq15_bk", "rhsusf_acc_ACOG_RMR", ["rhs_mag_30Rnd_556x45_Mk318_PMAG"], [], "rhsusf_acc_kac_grip"],
 ["rhs_weap_hk416d145", "rhsusf_acc_nt4_black", "rhsusf_acc_anpeq15_bk", "rhsusf_acc_su230a", ["rhs_mag_30Rnd_556x45_Mk318_PMAG"], [], "rhsusf_acc_kac_grip"],
 ["rhs_weap_hk416d145", "rhsusf_acc_nt4_black", "rhsusf_acc_anpeq15_bk", "rhsusf_acc_su230a_mrds", ["rhs_mag_30Rnd_556x45_Mk318_PMAG"], [], "rhsusf_acc_kac_grip"],
 ["rhs_weap_mk17_STD", "rhsusf_acc_aac_762sdn6_silencer", "rhsusf_acc_anpeq16a", "rhsusf_acc_eotech_552_d", ["rhs_mag_20Rnd_SCAR_762x51_m61_ap"], [], "rhsusf_acc_grip2_tan"],
